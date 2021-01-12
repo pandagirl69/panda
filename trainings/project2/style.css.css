@@ -1,0 +1,65 @@
+.couch-background {
+  background-color: rgb(14, 50, 87);
+  height: 322px;
+}
+.couch-image {
+  padding-left: 0;
+  margin: 0;
+}
+.inner-box {
+  height: 100px;
+  position: absolute;
+  right: 200px;
+  width: 50%;
+  height: 15em;
+}
+h2 {
+  text-align: right;
+  position: relative;
+  color: white;
+  right: 5em;
+}
+.box-1 {
+  border: white solid 2px;
+  border-radius: 15px;
+  width: 10em;
+  height: 10em;
+  background-color: red;
+  display: inline-block;
+  justify-content: start;
+  margin-left: 8em;
+  justify-content: space-between;
+  margin-right: 1em;
+}
+.box-2 {
+  border: white solid 2px;
+  border-radius: 15px;
+  width: 10em;
+  height: 10em;
+  background-color: pink;
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 1em;
+}
+.box-3 {
+  border: white solid 2px;
+  border-radius: 15px;
+  width: 10em;
+  height: 10em;
+  background-color: purple;
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 1em;
+}
+.box-4 {
+  border: white solid 2px;
+  border-radius: 15px;
+  width: 10em;
+  height: 10em;
+  background-color: orange;
+  display: inline-block;
+  margin-right: 1em;
+  justify-content: space-between;
+}
+.p-1{
+}

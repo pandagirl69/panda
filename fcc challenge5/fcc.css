@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 5em;
+  background-color: rgb(165, 7, 7);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu-logo {
+  position: absolute;
+  border: black solid 1px;
+  background-image: url(https://css-tricks.com/wp-content/uploads/2012/10/threelines.png);
+}
+.nav-txt {
+  color: white;
+  word-spacing: 3em;
+  font-size: 2em;
+  padding: 1em;
+}
+/* body 1 */
+.gray-background {
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panda {
+  color: white;
+  font-size: 2em;
+  font-family: "Raleway", sans-serif;
+}
+.web {
+  font-size: 1em;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(165, 7, 7);
+  display: flex;
+  justify-content: center;
+}
+/* body2 */
+.blue-background {
+  background-color: #45567d;
+  width: 100%;
+  height: 100vh;
+}
+.project {
+  text-decoration: underline;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 3em;
+  text-underline-position: under;
+}
+.boxes {
+  border: solid 2px orange;
+height: 30em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.box1 {
+  cursor: pointer;
+  border: #303841 2px solid;
+  width: 16em;
+  height: 28em;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(https://images.freeimages.com/images/large-previews/97d/smoking-panda-bear-1502265.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* body3 */
+.bottombox {
+  height: 4em;
+  width: 100%;
+  background-color: #303841;
+}
+.panda-page {
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.781);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.showall-key {
+  width: 100%;
+  height: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: #303841;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease-out;
+}
+.button:hover {
+  background-color: red;
+}
+.end-background {
+  background-color: #303841;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: xx-large;
+}
+.coffee {
+  font-size: 22px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+}

@@ -1,0 +1,25 @@
+.background {
+  background-color: rgba(128, 128, 128, 0.459);
+  width: 40em;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.image-background {
+  background-repeat: no-repeat;
+  height: 26em;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  font-size: 30px;
+}
+.btn {
+  border: white solid 1px;
+  background-color: rgba(136, 136, 136, 0);
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}

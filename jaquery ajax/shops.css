@@ -1,0 +1,12 @@
+.imageCell-round {
+  width: 5em;
+  height: 5em;
+  margin: auto;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+

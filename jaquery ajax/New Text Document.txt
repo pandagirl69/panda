@@ -1,0 +1,9 @@
+<div class="box">
+      <div class="img">
+        <img class="image" src="" alt="" />
+      </div>
+      <h3 class="kitty"></h3>
+      <div class="location">
+        <span></span>
+      </div>
+    </div>
